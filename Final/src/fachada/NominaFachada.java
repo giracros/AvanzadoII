@@ -4,19 +4,20 @@ import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import control.NominaDAO;
+import modelo.Nomina;
 
 @ManagedBean
 @SessionScoped
 public class NominaFachada {
 
-	private TbNomina nomina = new TbNomina();
+	private Nomina nomina = new Nomina();
 	private NominaDAO nominaDAO = new NominaDAO();
 
-	public TbNomina getNomina() {
+	public Nomina getNomina() {
 		return nomina;
 	}
 
-	public void setNomina(TbNomina nomina) {
+	public void setNomina(Nomina nomina) {
 		this.nomina = nomina;
 	}
 
@@ -25,15 +26,15 @@ public class NominaFachada {
 		return "NominaListar";
 	}
 
-	public List<TbNomina> listar() {
+	public List<Nomina> listar() {
 		return nominaDAO.listar();
 	}
 
-	public void eliminar(TbNomina nomina) {
+	public void eliminar(Nomina nomina) {
 		nominaDAO.eliminar(nomina);
 	}
 
-	public String modificar(TbNomina nomina) {
+	public String modificar(Nomina nomina) {
 		this.nomina = nomina;
 		return "NominaModificar";
 	}

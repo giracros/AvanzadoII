@@ -1,6 +1,8 @@
 package control;
 
-public class NominaUtil  extends NominaDAO <TbEstudiante> {
+import modelo.Nomina;
+
+public class NominaUtil  extends NominaDAO <Nomina> {
 
 	public NominaUtil () {
 		

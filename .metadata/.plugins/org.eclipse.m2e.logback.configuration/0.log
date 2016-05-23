@@ -205,3 +205,108 @@
 2016-05-23 17:33:15,127 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
 2016-05-23 17:33:15,128 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-05-23 17:33:15,134 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:10:30,399 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:10:30,407 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:10:30,409 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:10:30,409 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:10:38,646 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:10:38,647 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:10:38,648 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:10:38,655 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:14:16,463 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:14:16,520 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:14:16,522 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:14:16,526 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:14:17,568 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:14:17,569 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:14:17,571 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:14:17,571 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:19:45,607 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:19:45,609 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:19:45,611 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:19:45,612 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:21:05,003 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:21:05,004 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:21:05,005 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:21:05,006 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:21:06,043 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:21:06,044 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:21:06,046 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:21:06,046 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:22:50,591 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:22:50,594 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:22:50,595 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:22:50,595 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:23:52,074 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:23:52,076 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:23:52,077 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:23:52,078 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:24:54,594 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:24:54,594 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:24:54,596 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:24:54,596 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:25:13,124 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:13,124 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:25:13,125 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:13,125 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:25:18,636 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:18,636 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:25:18,637 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:18,638 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:25:24,979 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:24,980 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:25:24,981 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:25:24,982 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:26:14,982 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:26:14,995 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:26:14,998 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:26:14,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:28:16,937 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/danielfuentes/GitHub/AvanzadoII/Final
+2016-05-23 18:28:16,945 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B generate-sources
+2016-05-23 18:28:24,138 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/danielfuentes/GitHub/AvanzadoII/Final
+2016-05-23 18:28:24,138 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-05-23 18:28:26,280 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:28:26,281 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:28:26,282 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:28:26,283 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:28:26,286 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Final
+2016-05-23 18:28:26,288 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Final
+2016-05-23 18:28:26,354 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:02,792 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:02,800 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:33:02,803 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:02,804 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:33:13,315 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:13,319 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:33:13,321 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:13,322 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:33:34,447 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Final:Final:0.0.1-SNAPSHOT @ /Users/danielfuentes/GitHub/AvanzadoII/Final/pom.xml.
+2016-05-23 18:33:53,587 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:53,589 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:33:53,590 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:33:53,591 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:34:00,436 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:00,437 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:34:00,439 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:00,440 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:34:25,355 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:25,355 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:34:25,357 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:25,368 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:34:26,803 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-23 18:34:27,363 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Final:Final:0.0.1-SNAPSHOT @ /Users/danielfuentes/GitHub/AvanzadoII/Final/pom.xml.
+2016-05-23 18:34:28,227 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Final/src
+2016-05-23 18:34:28,228 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Final/src/test/java because it overlaps with /Final/src
+2016-05-23 18:34:28,686 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Final
+2016-05-23 18:34:28,689 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-05-23 18:34:29,017 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:29,019 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:34:29,023 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:29,024 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-23 18:34:29,025 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Final
+2016-05-23 18:34:29,026 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Final
+2016-05-23 18:34:29,061 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:36,555 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:36,555 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-23 18:34:36,557 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-23 18:34:36,563 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources

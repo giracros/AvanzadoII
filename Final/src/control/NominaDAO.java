@@ -2,6 +2,8 @@ package control;
 
 import java.util.List;
 import org.hibernate.Session;
+
+import modelo.Nomina;
 import utilidad.HibernateUtil;
 
 @SuppressWarnings("hiding")
@@ -12,7 +14,7 @@ public class NominaDAO<Object> {
 	/*
 	 * Metodo de Insertar 
 	 */
-	public void insertar(TbNomina nomina) {
+	public void insertar(Nomina nomina) {
 
 		try {
 			session.getTransaction().begin();
@@ -32,7 +34,7 @@ public class NominaDAO<Object> {
 		List<Object> nominas = null;
 		try {
 			session.getTransaction().begin();
-			nominas = (List<Object>) session.createCriteria(TbNomina.class).list();
+			nominas = (List<Object>) session.createCriteria(Nomina.class).list();
 			session.getTransaction().commit();
 		} catch (Exception e) {
 			session.flush();
@@ -45,7 +47,7 @@ public class NominaDAO<Object> {
 	/*
 	 * Metodo de Eliminar 
 	 */
-	public void eliminar(TbNomina nomina) {
+	public void eliminar(Nomina nomina) {
 
 		try {
 			session.getTransaction().begin();
@@ -61,7 +63,7 @@ public class NominaDAO<Object> {
 	/*
 	 * Metodo de Modificar 
 	 */
-	public void modificar(TbNomina nomina) {
+	public void modificar(Nomina nomina) {
 		try {
 			session.getTransaction().begin();
 			session.update(nomina);
