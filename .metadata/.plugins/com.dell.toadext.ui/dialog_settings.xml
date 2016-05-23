@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="OpenRecentFiles">
+		<item value="/Users/danielfuentes/GitHub/AvanzadoII/Final/sql/TriggerInsert.sql"/>
+	</list>
+	<section name="com.dell.toadext.connection.actions.LinkWithEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.view.handlers.GroupByDbHandler">
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowDataAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="aliases_section">
+		<list key="aliases">
+		</list>
+		<list key="queryables">
+		</list>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.DbmsOutputView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.ui.pages.ToadextOutlinePage$OutlineSortAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$ShowCommentAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowErrorsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowInputAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.DbConsoleView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.AbstractConnectionMonitorView$EnableAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.DisplayDescribeObjectEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditor">
+		<section name="saveToFile">
+			<item value="/Users/danielfuentes/GitHub/AvanzadoII/Final/sql/TriggerInsert.sql" key="filename"/>
+			<item value="/Users/danielfuentes/GitHub/AvanzadoII/Final/sql" key="pathname"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.LinkWithEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.mysql.ui.detailViewer.MySqlTableTriggersViewer">
+	</section>
+	<section name="com.dell.toadext.mysql.ui.detailViewer.MySqlTriggerViewer$1$1">
+		<section name="editorWeights">
+			<item value="1" key="rsWeight"/>
+			<item value="1" key="editorWeight"/>
+		</section>
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.plsqlviewer.pldoc.QuickDocView$LinkWithSelectionAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.AbstractConnectionMonitorView$LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.mysql.ui.detailViewer.MySqlConstraintsViewer">
+	</section>
+	<section name="com.dell.toadext.detailbrowser.viewer.AbstractQueryResultViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$HideResultSetAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.mysql.ui.detailViewer.MySqlTableColumnsViewer">
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$RightAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$BottomAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.mysql.ui.detailViewer.MySqlIndexesViewer">
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowStandardLogsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.mysql.ui.editor.MySqlEditorExtension">
+		<section name="editorWeights">
+			<item value="1" key="rsWeight"/>
+			<item value="1" key="editorWeight"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+</section>

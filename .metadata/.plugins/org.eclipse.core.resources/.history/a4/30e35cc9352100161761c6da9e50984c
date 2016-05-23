@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Nomina Empleados</title>
+</h:head>
+<h:body>
+	<h2>Empleados</h2>
+	<h:form>
+		<h:commandLink action="NominaIngreso">
+			<h:graphicImage library="imagen" name="insertar.png"></h:graphicImage>
+		</h:commandLink>
+		<h:panelGrid columns="3">
+
+			<p:dataTable var="cFachada" value="#{nominaFachada.listar()}">
+
+				<p:column>
+					<f:facet name="header"> Carnet </f:facet>
+					<h:outputText value="#{cFachada.carnet}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Nombre </f:facet>
+					<h:outputText value="#{cFachada.nombre}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Carrera </f:facet>
+					<h:outputText value="#{cFachada.carrera}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Parcial 1 </f:facet>
+					<h:outputText value="#{cFachada.parcial1}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"> Parcial 2 </f:facet>
+					<h:outputText value="#{cFachada.parcial2}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Seguimiento Nota 1 </f:facet>
+					<h:outputText value="#{cFachada.nota1}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"> Seguimiento Nota 2 </f:facet>
+					<h:outputText value="#{cFachada.nota2}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"> Seguimiento Nota 3 </f:facet>
+					<h:outputText value="#{cFachada.nota3}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Coevaluacion </f:facet>
+					<h:outputText value="#{cFachada.coevaluacion}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"> Definitiva </f:facet>
+					<h:outputText value="#{cFachada.definitiva}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header"> Opciones </f:facet>
+					<h:commandLink action="#{estudianteFachada.eliminar(cFachada)}"
+						onclick="return confirm('Seguro de Eliminar')">
+						<h:graphicImage library="imagen" name="eliminar.png"></h:graphicImage>
+					</h:commandLink>
+				</p:column>
+				<p:column>
+					<h:commandLink action="#{estudianteFachada.modificar(cFachada)}">
+						<h:graphicImage library="imagen" name="modificar.png"></h:graphicImage>
+					</h:commandLink>
+				</p:column>
+
+			</p:dataTable>
+
+		</h:panelGrid>
+
+	</h:form>
+</h:body>
+</html>

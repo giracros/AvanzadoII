@@ -1,0 +1,46 @@
+package fachada;
+
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import control.NominaDAO;
+import modelo.TbEstudiante;
+
+@ManagedBean
+@SessionScoped
+public class NominaFachada {
+
+	private TbEstudiante estudiante = new TbEstudiante();
+	private NominaDAO estudianteDAO = new NominaDAO();
+
+	public TbEstudiante getEstudiante() {
+		return estudiante;
+	}
+
+	public void setEstudiante(TbEstudiante estudiante) {
+		this.estudiante = estudiante;
+	}
+
+	public String agregar() {
+		estudianteDAO.insertar(estudiante);
+		return "EstudianteListar";
+	}
+
+	public List<TbEstudiante> listar() {
+		return estudianteDAO.listar();
+	}
+
+	public void eliminar(TbEstudiante estudiante) {
+		estudianteDAO.eliminar(estudiante);
+	}
+
+	public String modificar(TbEstudiante estudiante) {
+		this.estudiante = estudiante;
+		return "EstudianteModificar";
+	}
+
+	public String modificar() {
+		estudianteDAO.modificar(estudiante);
+		return "EstudianteListar";
+	}
+}

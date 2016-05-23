@@ -1,0 +1,76 @@
+package control;
+
+import java.util.List;
+import org.hibernate.Session;
+import modelo.TbEstudiante;
+import utilidad.HibernateUtil;
+
+@SuppressWarnings("hiding")
+public class EstudianteDAO<Object> {
+
+	private static final Session session = HibernateUtil.getSessionFactory().openSession();
+
+	/*
+	 * Metodo de Insertar 
+	 */
+	public void insertar(TbEstudiante estudiante) {
+
+		try {
+			session.getTransaction().begin();
+			session.save(estudiante);
+			session.getTransaction().commit();
+		} catch (Exception ex) {
+			session.getTransaction().rollback();
+		} finally {
+			session.flush();
+		}
+	}
+
+	/*
+	 * Metodo de Listar 
+	 */
+	public List<Object> listar() {
+		List<Object> estudiantes = null;
+		try {
+			session.getTransaction().begin();
+			estudiantes = (List<Object>) session.createCriteria(TbEstudiante.class).list();
+			session.getTransaction().commit();
+		} catch (Exception e) {
+			session.flush();
+			session.getTransaction().rollback();
+		}
+		return estudiantes;
+	}
+
+	
+	/*
+	 * Metodo de Eliminar 
+	 */
+	public void eliminar(TbEstudiante estudiante) {
+
+		try {
+			session.getTransaction().begin();
+			session.delete(estudiante);
+			session.getTransaction().commit();
+		} catch (Exception ex) {
+			session.getTransaction().rollback();
+		} finally {
+			session.flush();
+		}
+	}
+
+	/*
+	 * Metodo de Modificar 
+	 */
+	public void modificar(TbEstudiante estudiante) {
+		try {
+			session.getTransaction().begin();
+			session.update(estudiante);
+			session.getTransaction().commit();
+		} catch (Exception ex) {
+			session.getTransaction().rollback();
+		} finally {
+			session.flush();
+		}
+	}
+}

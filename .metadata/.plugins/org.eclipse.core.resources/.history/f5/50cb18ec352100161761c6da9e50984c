@@ -1,0 +1,11 @@
+package control;
+
+import modelo.TbEstudiante;
+
+public class NominaUtil  extends NominaDAO <TbEstudiante> {
+
+	public NominaUtil () {
+		
+		super();
+	}
+}

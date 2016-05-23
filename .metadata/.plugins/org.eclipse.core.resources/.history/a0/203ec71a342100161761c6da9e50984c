@@ -1,0 +1,11 @@
+package control;
+
+import modelo.TbEstudiante;
+
+public class EstudianteUtil  extends EstudianteDAO <TbEstudiante> {
+
+	public EstudianteUtil () {
+		
+		super();
+	}
+}
