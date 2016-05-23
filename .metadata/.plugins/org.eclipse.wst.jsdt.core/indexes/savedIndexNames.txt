@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/danielfuentes/GitHub/AvanzadoII/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3381107412.index
+3041511390.index
+862995269.index
+2861765967.index
+2070202993.index
+2886636191.index

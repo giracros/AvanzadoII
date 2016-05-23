@@ -1,0 +1,246 @@
+!SESSION 2016-05-22 20:58:30.550 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/danielfuentes/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/danielfuentes/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-22 20:59:05.691
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-05-22 20:59:08.747
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-22 20:59:08.747
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36e11b60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71d8794f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-22 20:59:08.747
+!MESSAGE A conflict occurred for COMMAND+R:
+Binding(COMMAND+R,
+	ParameterizedCommand(Command(org.nodeclipse.nodejs.run,Run Node Application,
+		Run Node Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6af02de0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+R,
+	ParameterizedCommand(Command(toadext.command.run,Run,
+		Run,
+		Category(toadext.category.sql,SQL,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3749c6ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-22 20:59:08.747
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9cdf13e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bede349,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-05-22 20:59:31.528
+!MESSAGE Plug-in com.dell.toadext.qp5 was unable to load class com.dell.toadext.qp5.format.FmtPreferenceInitializer.
+!STACK 0
+java.lang.ClassNotFoundException: com.dell.toadext.qp5.format.FmtPreferenceInitializer cannot be found by com.dell.toadext.qp5_2.3.8.201603180942
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.runInitializer(PreferenceServiceRegistryHelper.java:293)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.applyRuntimeDefaults(PreferenceServiceRegistryHelper.java:131)
+	at org.eclipse.core.internal.preferences.PreferencesService.applyRuntimeDefaults(PreferencesService.java:368)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.applyRuntimeDefaults(DefaultPreferences.java:221)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.load(DefaultPreferences.java:274)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.preferences.AbstractScope.getNode(AbstractScope.java:38)
+	at org.eclipse.core.runtime.preferences.DefaultScope.getNode(DefaultScope.java:76)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getDefaultPreferences(ScopedPreferenceStore.java:238)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.setDefault(ScopedPreferenceStore.java:514)
+	at com.dell.toadext.ui.qp5.ToadextFmtPreferences.initializeDefaultPreferences(ToadextFmtPreferences.java:190)
+	at com.dell.toadext.ToadextUiStartup.onStartup(ToadextUiStartup.java:82)
+	at com.dell.toadext.ToadextUiStartup.earlyStartup(ToadextUiStartup.java:74)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:68)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2852)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-05-22 21:02:27.599
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:283)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:186)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:389)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:339)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:146)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:389)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:339)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:146)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:389)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:194)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:275)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:267)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:328)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:387)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenUpdateProcess.run(EvergreenUpdateProcess.java:259)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-05-22 21:02:27.601
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-22 21:04:56.833
+!MESSAGE cacheFile=file:/Users/danielfuentes/eclipse/jee-mars/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY com.genuitec.eclipse.webclipse.evergreen 4 0 2016-05-22 21:05:36.172
+!MESSAGE Cannot perform the update. Failed to compute provisioning plan.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete the install because of a conflicting dependency.
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenUpdateProcess.run(EvergreenUpdateProcess.java:264)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Software being installed: Webclipse JavaScript Debugger 1.2.0.201605181044 (com.genuitec.eclipse.webclipse.jsdebugger.feature.feature.group 1.2.0.201605181044)
+Contains: Software currently installed: Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.group 0.3.9.201603172305)
+Contains: Only one of the following can be installed at once: 
+Contains: Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.jar 0.3.9.201603172305)
+Contains: Chromium JavaScript Remote Debugger 0.3.9.201605181044 (org.chromium.debug.feature.jar 0.3.9.201605181044)
+Contains: Cannot satisfy dependency:
+Contains: From: Webclipse JavaScript Debugger 1.2.0.201605181044 (com.genuitec.eclipse.webclipse.jsdebugger.feature.feature.group 1.2.0.201605181044)
+Contains: To: org.chromium.debug.feature.group [0.3.9.201605181044]
+Contains: Cannot satisfy dependency:
+Contains: From: Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.group 0.3.9.201603172305)
+Contains: To: org.chromium.debug.feature.jar [0.3.9.201603172305]
+Contains: Cannot satisfy dependency:
+Contains: From: Chromium JavaScript Remote Debugger 0.3.9.201605181044 (org.chromium.debug.feature.group 0.3.9.201605181044)
+Contains: To: org.chromium.debug.feature.jar [0.3.9.201605181044]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-05-22 21:05:36.172
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE Software being installed: Webclipse JavaScript Debugger 1.2.0.201605181044 (com.genuitec.eclipse.webclipse.jsdebugger.feature.feature.group 1.2.0.201605181044)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE Software currently installed: Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.group 0.3.9.201603172305)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-22 21:05:36.172
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.jar 0.3.9.201603172305)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE Chromium JavaScript Remote Debugger 0.3.9.201605181044 (org.chromium.debug.feature.jar 0.3.9.201605181044)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-22 21:05:36.172
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE From: Webclipse JavaScript Debugger 1.2.0.201605181044 (com.genuitec.eclipse.webclipse.jsdebugger.feature.feature.group 1.2.0.201605181044)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE To: org.chromium.debug.feature.group [0.3.9.201605181044]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-22 21:05:36.172
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.9.201603172305 (org.chromium.debug.feature.group 0.3.9.201603172305)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.172
+!MESSAGE To: org.chromium.debug.feature.jar [0.3.9.201603172305]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-22 21:05:36.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.173
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.9.201605181044 (org.chromium.debug.feature.group 0.3.9.201605181044)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-22 21:05:36.173
+!MESSAGE To: org.chromium.debug.feature.jar [0.3.9.201605181044]
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-22 21:05:37.767
+!MESSAGE cacheFile=file:/Users/danielfuentes/eclipse/jee-mars/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-05-22 21:06:35.806
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:18.520
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:18.524
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:20.799
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:20.802
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:20.826
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:21.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:21.861
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:07:21.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:08:27.545
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-22 21:08:27.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

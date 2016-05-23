@@ -1,0 +1,31 @@
+2016-05-22 21:07:16,319 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Final:Final:0.0.1-SNAPSHOT @ /Users/danielfuentes/GitHub/AvanzadoII/Final/pom.xml.
+2016-05-22 21:07:18,518 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:18,521 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-22 21:07:18,524 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:18,525 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-22 21:07:18,553 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Final/src
+2016-05-22 21:07:18,554 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Final/src/test/java because it overlaps with /Final/src
+2016-05-22 21:07:19,168 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-22 21:07:19,765 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Final:Final:0.0.1-SNAPSHOT @ /Users/danielfuentes/GitHub/AvanzadoII/Final/pom.xml.
+2016-05-22 21:07:20,798 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:20,800 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-22 21:07:20,802 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:20,802 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-22 21:07:20,803 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Final
+2016-05-22 21:07:20,804 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Final
+2016-05-22 21:07:20,826 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:20,893 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Final/src
+2016-05-22 21:07:20,906 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Final/src/test/java because it overlaps with /Final/src
+2016-05-22 21:07:21,239 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Final
+2016-05-22 21:07:21,292 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-22 21:07:21,858 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:21,860 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-22 21:07:21,861 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:07:21,866 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
+2016-05-22 21:07:21,866 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Final
+2016-05-22 21:07:21,867 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Final
+2016-05-22 21:07:21,871 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:08:27,544 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:08:27,548 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/main/resources
+2016-05-22 21:08:27,550 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-22 21:08:27,550 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/danielfuentes/GitHub/AvanzadoII/Final/src/test/resources
