@@ -35,18 +35,27 @@ Con las siguientes reglas de negocio:
 -----------------
 
 ~~~
-    set new.basico = ((new.diastrabajados * new.salariomensual) /30);
-    set new.totaldevengado= (new.basico + new.auxiliodetransporte);
-    set new.eps=(new.basico*0.04);
-    set new.pension=(new.basico * 0.05);
-    set new.totaldeducido=(new.eps + new.pension);
-    set new.totaldevengado=(new.basico + new.auxiliodetransporte);
-    set new.netopagado = (new.totaldevengado - new.totaldeducido);
-    if (new.auxiliodetransporte<13789000)then
-       set new.auxiliodetransporte=((77700 *new.diastrabajados)/30);
-       else
-       set new.auxiliodetransporte= 0;
-    end if;
+CREATE TRIGGER `Tr_Calculo` BEFORE INSERT ON `Nomina` FOR EACH ROW BEGIN
+
+  declare  salarioMinimo INT;
+  set salarioMinimo  = 689454;
+   SET new.Basico = ((new.DiasTrabajados * new.SalarioMensual) / 30);
+   SET new.TotalDevengado = (new.Basico + new.AuxilioTransporte);
+   SET new.Eps = (new.Basico * 0.04);
+   SET new.Pension = (new.Basico * 0.05);
+   SET new.TotalDeducido = (new.Eps + new.Pension);
+
+
+   IF (new.SalarioMensual < salarioMinimo*2)
+   THEN
+      SET new.AuxilioTransporte = ((77700 * new.DiasTrabajados) / 30);
+   ELSE
+      SET new.AuxilioTransporte = 0;
+   END IF;
+
+   SET new.TotalDevengado = (new.Basico + new.AuxilioTransporte);
+   SET new.NetoPagado = (new.TotalDevengado - new.TotalDeducido);
+END
 ~~~
 
 Gracias
