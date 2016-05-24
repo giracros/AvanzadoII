@@ -30,54 +30,61 @@
 				</p:column>
 
 				<p:column>
-					<f:facet name="header"> Carrera </f:facet>
-					<h:outputText value="#{cFachada.carrera}" />
+					<f:facet name="header"> Salario Mensual </f:facet>
+					<h:outputText value="#{cFachada.salarioMensual}" />
 				</p:column>
 
 				<p:column>
-					<f:facet name="header"> Parcial 1 </f:facet>
-					<h:outputText value="#{cFachada.parcial1}" />
+					<f:facet name="header"> Dias Trabajados </f:facet>
+					<h:outputText value="#{cFachada.diasTrabajados}" />
 				</p:column>
 				
 				<p:column>
-					<f:facet name="header"> Parcial 2 </f:facet>
-					<h:outputText value="#{cFachada.parcial2}" />
+					<f:facet name="header"> Basico </f:facet>
+					<h:outputText value="#{cFachada.basico}" />
 				</p:column>
 
 				<p:column>
-					<f:facet name="header"> Seguimiento Nota 1 </f:facet>
-					<h:outputText value="#{cFachada.nota1}" />
+					<f:facet name="header"> AuxilioTrans </f:facet>
+					<h:outputText value="#{cFachada.auxilioTransporte}" />
 				</p:column>
 				
 				<p:column>
-					<f:facet name="header"> Seguimiento Nota 2 </f:facet>
-					<h:outputText value="#{cFachada.nota2}" />
+					<f:facet name="header"> Total Devengado </f:facet>
+					<h:outputText value="#{cFachada.totalDevengado}" />
 				</p:column>
 				
 				<p:column>
-					<f:facet name="header"> Seguimiento Nota 3 </f:facet>
-					<h:outputText value="#{cFachada.nota3}" />
+					<f:facet name="header"> EPS</f:facet>
+					<h:outputText value="#{cFachada.eps}" />
 				</p:column>
 
 				<p:column>
-					<f:facet name="header"> Coevaluacion </f:facet>
-					<h:outputText value="#{cFachada.coevaluacion}" />
+					<f:facet name="header"> Pension </f:facet>
+					<h:outputText value="#{cFachada.pension}" />
 				</p:column>
 				
 				<p:column>
-					<f:facet name="header"> Definitiva </f:facet>
-					<h:outputText value="#{cFachada.definitiva}" />
+					<f:facet name="header"> Neto Pagado </f:facet>
+					<h:outputText value="#{cFachada.netoPagado}" />
 				</p:column>
+				
+				
+				<p:column>
+					<f:facet name="header"> Total Deducido </f:facet>
+					<h:outputText value="#{cFachada.totalDeducido}" />
+				</p:column>
+				
 
 				<p:column>
 					<f:facet name="header"> Opciones </f:facet>
-					<h:commandLink action="#{estudianteFachada.eliminar(cFachada)}"
+					<h:commandLink action="#{nominaFachada.eliminar(cFachada)}"
 						onclick="return confirm('Seguro de Eliminar')">
 						<h:graphicImage library="imagen" name="eliminar.png"></h:graphicImage>
 					</h:commandLink>
 				</p:column>
 				<p:column>
-					<h:commandLink action="#{estudianteFachada.modificar(cFachada)}">
+					<h:commandLink action="#{nominaFachada.modificar(cFachada)}">
 						<h:graphicImage library="imagen" name="modificar.png"></h:graphicImage>
 					</h:commandLink>
 				</p:column>
